@@ -1,0 +1,27 @@
+.allproduct_con{
+    margin-left: 21vw;
+    margin-top: 2rem;
+    margin-right: 1vw;
+    margin-bottom: 1rem;
+}
+.allproduct_head{
+    display: flex;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.tabhead{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.tabicon{
+    color: black;
+    opacity: .9;
+}
+
+@media (max-width:940px) {
+    .allproduct_con{
+        margin: 0 1rem 1rem 1rem;
+    }
+}

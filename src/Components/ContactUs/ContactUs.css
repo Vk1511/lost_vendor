@@ -1,0 +1,69 @@
+.ContactContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(181, 134, 226);
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.ContactUsLogo{
+    width: 30vw;
+}
+.ContactAnimation{
+    margin-left: 5%;
+}
+.ContactForm{
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactUs_form{
+    padding: 25px 40px 10px 40px;
+    width: 45vw;
+    height: 70vh;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+.form_title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.form_field{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 2rem 0;
+}
+.input_field{
+    display: flex;
+    flex-direction: column; 
+    margin: 3px; 
+}
+.input_field label{
+    font-size: 17px;
+    font-weight: 500;
+}
+.input_field input{
+    height: 30px;
+    font-size: 15px;
+}
+.input_field .submit{
+    width: 120px;
+}
+.input_field .textara_box{
+    height: 65px;
+}
+.check_class label{
+    font-weight: 500;
+}
+.sub_btn{
+    margin-top: 10px;
+}
+.sub_btn .submit{
+    padding: 10px;
+    height: 40px;
+    width: 130px;
+}

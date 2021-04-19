@@ -1,0 +1,26 @@
+.chart_con{
+    margin-left: 21vw;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 3px 0px rgb(152, 99, 202);
+    -webkit-box-shadow: 0px 2px 3px 0px rgb(152, 99, 202);
+    -moz-box-shadow: 0px 2px 3px 0px rgb(152, 99, 202);
+    border-radius: .5rem;
+    margin-right: 1vw;
+}
+.chart_head{
+    display: flex;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.chart_body{
+    height: 300px;
+    width: 100%;
+}
+@media (max-width:940px) {
+    .chart_con{
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+}
